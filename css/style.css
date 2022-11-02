@@ -1,0 +1,57 @@
+body{
+	background-image: url("../img/12.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin:0;
+	background-size: cover;
+} 
+html{
+	height:100%;
+}
+#h1{
+	font-family: "Lucida Handwriting", Cursive;
+	color: #FFD700;
+	text-align: center;
+	border-style: solid hidden solid hidden;
+}
+#d1{
+	 display: flex;
+	 justify-content: space-evenly;
+	 flex-wrap: wrap;
+	 gap: 10px 10px;
+	 align-items:center;
+}
+#i1,#i2,#i3 {
+	height:512px;
+	width:512px;
+	border: 0;
+	padding: 0px;
+ }
+.classd1{
+	font-family: "Lucida Handwriting", Cursive;
+	color: #FF4500;
+}
+#d2{
+	 display: flex;
+	 justify-content: space-evenly;
+	 flex-wrap: wrap;
+	 gap: 0px 10px;
+	 align-items:center;
+}
+ #btn {
+	font-family: "Lucida Handwriting", Cursive;
+	border-radius: 5px; 
+	border: none;
+	font-size: 20px;
+	padding: 15px 32px;
+	background-color: #FFD700;
+	width:150px;
+ }
+@media screen and (max-width: 1200px) {
+	#d1{flex-direction: column;}
+	#d2{flex-direction: column;}
+}
+#h3,#h4{
+	width:500px;
+
+}

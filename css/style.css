@@ -32,7 +32,7 @@ html{
 	font-family: "Lucida Handwriting", Cursive;
 	color: #FF4500;
 }
-#d2{
+#d2, #d3{
 	 display: flex;
 	 justify-content: space-evenly;
 	 flex-wrap: wrap;
@@ -40,6 +40,15 @@ html{
 	 align-items:center;
 }
  #btn {
+	font-family: "Lucida Handwriting", Cursive;
+	border-radius: 5px; 
+	border: none;
+	font-size: 20px;
+	padding: 15px 32px;
+	background-color: #FFD700;
+	width:150px;
+ }
+  #btn1 {
 	font-family: "Lucida Handwriting", Cursive;
 	border-radius: 5px; 
 	border: none;

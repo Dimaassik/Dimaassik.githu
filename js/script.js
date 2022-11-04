@@ -62,6 +62,16 @@ const h4 = document.createElement('h1');
 h4.textContent = "Шериф комп'ютер";
 h4.id = "h4"
 d2.appendChild(h4);
+
+const d3 = document.createElement('div');
+d3.id = "d3"
+body.appendChild(d3);
+
+const btn1 = document.createElement('button');
+btn1.innerHTML = 'Рестарт';
+btn1.id = "btn1"
+btn1.addEventListener('click', () => { Restart()});
+d3.appendChild(btn1);
 }
 function war(){
 	h1.textContent = 'Бій №'+ i;
@@ -97,4 +107,19 @@ const h4 = document.querySelector('#h4');
 		alert("Супротивник дійсно сильний, спробуй ще раз")
 				h1.textContent = 'Поразка';
 	}
+}
+function Restart(){
+	r1 = 0;
+	r2 = 0;
+	p1 = 0;
+	p2 = 0;
+	i = 1;
+		h1.textContent = 'Бій №'+ i;
+const h2 = document.querySelector('#h2');
+const h3 = document.querySelector('#h3');
+const h4 = document.querySelector('#h4');
+	h2.textContent = p1+' : '+p2;
+	h3.textContent = result +": "+ r1;
+	h4.textContent = "Шериф комп'ютер: "+ r2;
+	i++;
 }

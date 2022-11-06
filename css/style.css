@@ -9,12 +9,6 @@ body{
 html{
 	height:100%;
 }
-#h1{
-	font-family: "Lucida Handwriting", Cursive;
-	color: #FFD700;
-	text-align: center;
-	border-style: solid hidden solid hidden;
-}
 #d1{
 	 display: flex;
 	 justify-content: space-evenly;
@@ -22,16 +16,12 @@ html{
 	 gap: 10px 10px;
 	 align-items:center;
 }
-#i1,#i2,#i3 {
-	height:512px;
-	width:512px;
+#i1,#i2{
+	height:360px;
+	width:480px;
 	border: 0;
 	padding: 0px;
  }
-.classd1{
-	font-family: "Lucida Handwriting", Cursive;
-	color: #FF4500;
-}
 #d2, #d3{
 	 display: flex;
 	 justify-content: space-evenly;
@@ -39,29 +29,28 @@ html{
 	 gap: 0px 10px;
 	 align-items:center;
 }
- #btn {
+#btn, #btn1{
 	font-family: "Lucida Handwriting", Cursive;
 	border-radius: 5px; 
 	border: none;
 	font-size: 20px;
 	padding: 15px 32px;
-	background-color: #FFD700;
-	width:150px;
+	background-color: #006400;
+		width: 360px;
  }
-  #btn1 {
-	font-family: "Lucida Handwriting", Cursive;
-	border-radius: 5px; 
-	border: none;
-	font-size: 20px;
-	padding: 15px 32px;
-	background-color: #FFD700;
-	width:150px;
- }
+
 @media screen and (max-width: 1200px) {
 	#d1{flex-direction: column;}
 	#d2{flex-direction: column;}
 }
-#h3,#h4{
+/* #h3,#h4{
 	width:500px;
 
+} */
+#h2, #h3, #h4{
+	font-family: "Lucida Handwriting", Cursive;
+	color: #FAFAD2;
+	border-style: solid hidden solid hidden;
+	width: 360px;
+	text-align: center;
 }

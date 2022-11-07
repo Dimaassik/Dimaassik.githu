@@ -1,10 +1,9 @@
 body{
 	background-image: url("../img/12.jpg");
 	background-position: center center;
-	background-repeat: no-repeat;
 	margin:0;
 	background-size: cover;
-	background-color: #006400;
+	background-color: #150B02;
 } 
 html{
 	height:100%;

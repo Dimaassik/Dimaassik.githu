@@ -149,7 +149,5 @@ function Restart(){
 	p2 = 0;
 	i = 0;
 	h2.textContent = p1+' : '+p2;
-	h3.textContent = result +": "+ r1;
-	h4.textContent = "Картковий геній: "+ r2;
 }
 // валет-2 дама-3 король-4 туз-5 (11) 6 7 8 9 10

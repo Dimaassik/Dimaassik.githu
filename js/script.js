@@ -1,5 +1,8 @@
- var result = prompt("Введіть ваше ім'я");
- 	if(result==""){
+result = prompt("Введіть ваше ім'я");
+ 	if(result==null){
+		result="Невідомий лудоман";
+	}
+	if(result==""){
 		result="Невідомий лудоман";
 	}
  var i=0,p1=0,p2=0,r1=0,r2=0;
@@ -8,7 +11,7 @@ const d1 = document.createElement('div');
 d1.id = "d1"
 body.appendChild(d1);
 const img1 = document.createElement('img');
-img1.src ="img/k11.jpg";
+img1.src ="img/k11.png";
 d1.appendChild(img1);
 const btn = document.createElement('button');
 btn.innerHTML = 'Викласти карту';
@@ -16,7 +19,7 @@ btn.id = "btn"
 btn.addEventListener('click', () => { Rand()});
 d1.appendChild(btn);
 const img2 = document.createElement('img');
-img2.src ="img/k11.jpg";
+img2.src ="img/k11.png";
 d1.appendChild(img2);
 const d2 = document.createElement('div');
 d2.id = "d2";
@@ -148,6 +151,8 @@ function Restart(){
 	p1 = 0;
 	p2 = 0;
 	i = 0;
+	img1.src ="img/k11.png";
+	img2.src ="img/k11.png";
 	h2.textContent = p1+' : '+p2;
 }
 // валет-2 дама-3 король-4 туз-5 (11) 6 7 8 9 10

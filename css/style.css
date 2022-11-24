@@ -1,73 +1,67 @@
 body{
-	background-image: url("../img/12.jpg");
 	background-position: center center;
 	margin:0;
 	background-size: cover;
-	background-color: #851025;
+	background-color: Linen;
 } 
 html{
 	height:100%;
 }
 #d1{
 	 display: flex;
-	 justify-content: center;
-	 flex-wrap: wrap;
-	 gap: 2px 5px;
-	 align-items:center;
+	 justify-content: space-around;
+	 gap: 10px 5px;
 	 flex-direction: column;
-}
-#d11,#d12,#d13{
-	 display: flex;
-	 justify-content: space-evenly;
 	 flex-wrap: wrap;
-	 gap: 0px 2px;
-	 align-items:center;
-	 align-content:center;
-	 border: 4px solid black;
+	 align-items: center;
 }
-#h1, #h2{
+
+#d2{
+	margin-top: 10px;
+	border: 1px solid Gainsboro;
+    width: 550px;
+    height: 350px;
+    background: GhostWhite;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#d3{
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+	 flex-wrap: wrap;
+}
+#h1{
 	font-family: "Lucida Handwriting", Cursive;
-	color: #c20e2f;
-	background-color: #fa7a92;
-	width:300px;
-	margin: 5px;
+	color: Crimson;
+	background-color: LightCoral;
 	border-radius: 7px;
-	text-align: center;
+		width: 200px;
 }
-#btn{
+#h2{
+	font-family: "Lucida Handwriting", Cursive;
+	color: MediumSeaGreen;
+	background-color: PaleGreen;
+	border-radius: 7px;
+		width: 200px;
+}
+#n{
+	font-family: "Lucida Handwriting", Cursive;
+	border-radius: 7px;
+}
+#btn, #in{
 	font-family: "Lucida Handwriting", Cursive;
 	border-radius: 5px; 
 	border: none;
 	font-size: 20px;
 	padding: 15px 32px;
-	background-color: #c20e2f;
-	width: 360px;
+	background-color: #FFA07A;
+	width: 150px;
  }
-img{
-	height:120px;
-	width:120px;
- }
- 
- 
-/* #i1,#i2{
-	height:360px;
-	width:480px;
-	border: 0;
-	padding: 0px;
- } */
-/*  
-#d2, #d3{
-	 display: flex;
-	 justify-content: space-evenly;
-	 flex-wrap: wrap;
-	 gap: 0px 10px;
-	 align-items:center;
+#in{
+	width: 300px; 
 }
-
-@media screen and (max-width: 1200px) {
-
+#h{
+	font-family: "Lucida Handwriting", Cursive;
+	text-align: center;
+	margin-top: 135px
 }
-/* #h3,#h4{
-	width:500px;
-
-} */

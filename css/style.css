@@ -30,6 +30,7 @@ html{
 	 justify-content: space-around;
 	 flex-wrap: wrap;
 }
+
 #h1{
 	font-family: "Lucida Handwriting", Cursive;
 	color: Crimson;
@@ -64,4 +65,11 @@ html{
 	font-family: "Lucida Handwriting", Cursive;
 	text-align: center;
 	margin-top: 135px
+}
+#sel{
+	font-family: "Lucida Handwriting", Cursive;
+	border-radius: 5px; 
+	border: none;
+	font-size: 20px;
+	background-color: #FFA07A;
 }

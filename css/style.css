@@ -2,74 +2,194 @@ body{
 	background-position: center center;
 	margin:0;
 	background-size: cover;
-	background-color: Linen;
+	background-color: #dbcc58;
+	background-repeat: no-repeat;
 } 
 html{
 	height:100%;
 }
-#d1{
-	 display: flex;
-	 justify-content: space-around;
-	 gap: 10px 5px;
-	 flex-direction: column;
-	 flex-wrap: wrap;
-	 align-items: center;
-}
 
-#d2{
-	margin-top: 10px;
-	border: 1px solid Gainsboro;
-    width: 550px;
-    height: 350px;
-    background: GhostWhite;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-#d3{
+#main{
 	 display: flex;
 	 flex-direction: row;
 	 justify-content: space-around;
+	 gap: 10px 5px;
 	 flex-wrap: wrap;
+	 align-items: center;
+}
+.classlb{
+	margin-top: 10px;
+	border: 1px solid Gainsboro;
+    width: 250px;
+    height: 350px;
+    background: White;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 15px;
+}
+.classlb img{
+	height:160px;
+	width:160px;
+	display: block;
+    margin: 4px auto;
+}
+.classlb h1{
+	font-family: "Lucida Handwriting", Cursive;
+	color: #dbcc58;
+	text-align: center
+}
+.classlb h3{
+	font-family: "Lucida Handwriting", Cursive;
+	color: #dbcc58;
+	text-align: left;
+	margin: 8px;
 }
 
+.classpr{
+	font-family: "Lucida Handwriting", Cursive;
+	color: gray;
+	position: fixed;
+	left: 3%;
+
+}
+.classpr button{
+	font-family: "Lucida Handwriting", Cursive;
+	border-radius: 5px; 
+	border: none;
+	font-size: 16px;
+	padding: 15px 32px;
+	background-color: #ebe6da;
+	margin-top: 8px;
+}
+.classpr input{
+	 font-family: "Lucida Handwriting", Cursive;
+	 border-radius: 5px;
+	 width: 150px; 
+	 height: 30px;
+	 color: gray;
+	 background-color: #fcba03;
+	 font-size: 16px;
+}
+
+.classtx{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 10px 10px;
+	align-items:center;
+}
 #h1{
 	font-family: "Lucida Handwriting", Cursive;
-	color: Crimson;
-	background-color: LightCoral;
-	border-radius: 7px;
-		width: 200px;
+	color: #FFD700;
+	text-align: center;
+	border-style: solid hidden solid hidden;
 }
-#h2{
-	font-family: "Lucida Handwriting", Cursive;
-	color: MediumSeaGreen;
-	background-color: PaleGreen;
-	border-radius: 7px;
-		width: 200px;
+.classtx img{
+	height:480px;
+	width:480px;
+	border: 0;
+	padding: 0px;
 }
-#n{
-	font-family: "Lucida Handwriting", Cursive;
-	border-radius: 7px;
+.classtx2{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 0px 10px;
+	align-items:center;
+	flex-direction: row;
 }
-#btn, #in{
+.classtx2 button{
 	font-family: "Lucida Handwriting", Cursive;
 	border-radius: 5px; 
 	border: none;
 	font-size: 20px;
 	padding: 15px 32px;
-	background-color: #FFA07A;
-	width: 150px;
- }
-#in{
-	width: 300px; 
+	background-color: #FFD700;
+	width:150px;
 }
-#h{
+.classtx2 h1{
+	width:480px;
 	font-family: "Lucida Handwriting", Cursive;
-	text-align: center;
-	margin-top: 135px
+	color: #e87979;
 }
-#sel{
+#h2{
+	font-family: "Lucida Handwriting", Cursive;
+	color: #FF4500;
+}
+@media screen and (max-width: 1200px) {
+	#d1{flex-direction: column;}
+	#d2{flex-direction: column;}
+}
+
+.class21{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 10px 10px;
+	align-items:center;
+}
+.class22{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 0px 10px;
+	align-items:center;
+}
+#b,#b1{
 	font-family: "Lucida Handwriting", Cursive;
 	border-radius: 5px; 
 	border: none;
 	font-size: 20px;
-	background-color: #FFA07A;
+	padding: 15px 32px;
+	background-color: #006400;
+	width: 360px;
 }
+#H2, #H3, #H4{
+	font-family: "Lucida Handwriting", Cursive;
+	color: #FAFAD2;
+	border-style: solid hidden solid hidden;
+	width: 360px;
+	text-align: center;
+}
+
+.classdgo{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2px 5px;
+	align-items:center;
+	flex-direction: column;
+}
+#hh1, #hh2{
+	font-family: "Lucida Handwriting", Cursive;
+	color: #c20e2f;
+	background-color: #fa7a92;
+	width:300px;
+	margin: 5px;
+	border-radius: 7px;
+	text-align: center;
+}
+#qtn{
+	font-family: "Lucida Handwriting", Cursive;
+	border-radius: 5px; 
+	border: none;
+	font-size: 20px;
+	padding: 15px 32px;
+	background-color: #c20e2f;
+	width: 360px;
+ }
+ .classdgo1{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 0px 2px;
+	align-items:center;
+	align-content:center;
+	border: 4px solid black;
+}
+ .classdgo1 img{
+	height:120px;
+	width:120px;
+    display: block;
+    margin: 0 auto;
+ }
+ 
